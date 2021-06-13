@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+    font-size: 15px;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+header{
+    
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4)0%, rgba(0,0,0, 0.5)100%), url(images/banner.jpg); 
+    
+}
+
+/** Navigation Starts**/
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-bottom: 1px solid rgb(158, 130, 130);
+    padding-bottom: 40px;
+}
+
+nav a{
+    color: white;
+    font-weight: 550;
+    text-decoration: none;
+
+}
+
+nav .fa{
+    display: none;
+
+}
+
+nav .faAncor{
+    display: none;
+
+}
+
+nav p{
+    color: white;
+    font-weight: 550;
+}
+nav span{
+    font-size: 1.1rem;
+}
+
+ul{
+    display: flex;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+
+.three-part h1{
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 400;
+
+}
+
+.three-part{
+    color: white;
+    margin-top: 7rem;
+
+}
+
+.three-part hr{
+      border: 0;
+      border-left: 1px solid;
+      color:  #ddd;
+}
+
+.frstBtn{
+    padding: 0.5rem 2rem;
+    background: none;
+    border: 0;
+    border: 2px solid #389962;
+    color: #389962;
+    font-size: 1rem;
+    border-radius: 30px;
+    letter-spacing: 1.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.for-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5rem 0rem; 
+}
+
+.inner h4{
+    line-height: 22px;
+    color: rgb(238, 220, 220);
+}
+
+.inner p{
+    line-height: 26px;
+    color: rgb(179, 165, 165);
+}
+
+.inner span{
+    color: #389962;
+    line-height: 18px;
+}
+
+/** Header Ends **/
+
+/** Two Parts Starts **/
+.two-parts{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 4rem 0rem;
+}
+
+.main h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    margin-top: 0.6rem;
+    color: rgb(54, 37, 37);
+}
+
+.two-parts .main{
+    width: 35%;
+    margin: 2rem 0rem;
+    
+}
+.main img{
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.main p{
+    color: rgb(117, 101, 101);
+    line-height: 1.7rem;
+    font-size: 1rem;
+}
+
+.smBtn{
+    padding: 0.4rem 2.2rem;
+    background: none;
+    border: 0;
+    border: 2px solid #389962;
+    color: #389962;
+    font-size: 0.9rem;
+    font-weight: 650;
+    border-radius: 30px;
+    letter-spacing: 1.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+/** Two Parts Ends **/
+
+.input-flex input{
+    
+    width: 93.3%;
+    background: none;
+    border: 0;
+    border: 1px solid rgb(209, 176, 176);
+    padding-left: 1.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    outline: none;
+    border-radius: 4px;
+}
+
+.input-section{
+    padding: 4rem 0rem;
+    background-color:  #54ce89;
+    text-align: center;
+}
+
+.input textarea{
+    width: 97%;
+    background: none;
+    border: 0;
+    border: 1px solid rgb(209, 176, 176);
+    padding-left: 1.8rem;
+    padding-top: 1rem;
+    outline: none;
+    
+    border-radius: 4px;
+}
+
+.input h5{
+   color: #ddd;
+
+}
+
+.padding-heading{
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+.block h5{
+    text-align: left;
+}
+
+.block{
+    width: 40%;
+}
+
+.input-flex{
+   display: flex;
+   justify-content: space-between;
+}
+
+.input-section button{
+    padding: 0.4rem 2.2rem;
+    background: none;
+    border: 0;
+    border: 2px solid #e7f5ed;
+    color: #ddd;
+    font-size: 0.9rem;
+    font-weight: 650;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.input-section p{
+    padding: 1rem 0rem;
+    color: #ddd;
+}
+
+.input ::placeholder{
+    color: #ddd;
+
+}
+
+/** Media Query Starts **/
+
+/**
+@media only screen and (max-width:1100px){
+    .input-flex input{
+        width: 93%;
+    }
+
+}
+**/
+@media only screen and (max-width:1230px){
+    .input textarea{
+        width: 97%;
+    }
+}
+
+
+@media only screen and (max-width:850px){
+    .input textarea{
+        width: 97.4%;
+    }
+
+    
+}
+
+@media only screen and (max-width:830px){
+    .three-part h1{
+        font-size: 2rem;
+        font-weight: 200;    
+    }
+
+    .three-part{
+        margin-top: 4rem;
+    
+    }
+    
+    .inner{
+        width: 30%;
+    }
+    
+}
+
+@media only screen and (max-width:720px){
+    ul li{
+        
+        margin-left: 1.5rem;
+    }
+
+    .three-part h1{
+        font-size: 1.8rem;
+          
+    }
+
+    nav a{
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+        
+    }
+
+    nav p{
+        
+        font-weight: 60;
+        font-size: 1.1rem;
+    }
+    nav span{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .inner{
+        
+        padding: 1.9rem 0rem;
+    }
+
+    
+
+  
+
+}
+
+@media only screen and (max-width:620px){
+
+    .three-part{
+        margin-top: 3rem;
+    }
+
+    .inner{
+        width: 100%;
+        padding: 0.9rem 0rem;
+    }
+
+    ul{
+        display: none;
+    }
+
+    nav .fa{
+        display: block;
+        color: white;
+    }
+
+    nav .faAncor{
+        display: block;
+        font-size: 1.2rem;
+    
+    }
+
+    .three-part h1{
+        font-size: 1.7rem;
+            
+    }
+
+    ul li{
+        
+        margin-left: 1rem;
+    }
+
+    nav a{
+        font-weight: 450;
+        letter-spacing: 0.1rem;
+        font-size: 13px;
+        
+    }
+
+    nav p{
+        
+        font-weight: 550;
+        font-size: 1rem;
+    }
+
+   
+    nav span{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    .for-flex{
+        padding-top: 1.2rem;
+        padding-bottom: 0.8rem;
+    }
+
+    .inner h4{
+        font-size: 1rem;
+    }
+
+    .inner p{
+        font-size: 0.9rem;
+    }
+    /**
+    body p{
+        font-size: 0.8rem;
+    }
+    **/
+}
+
+@media only screen and (max-width:550px){
+    .inner{
+        width: 100%;
+        /** padding: 1rem 0rem; **/
+    }
+
+   .inner h4{
+        font-size: 0.9rem;
+    }
+
+    .inner p{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media only screen and (max-width:650px){
+
+    .two-parts .main{
+        width: 80%;
+    }
+     .two-parts{
+        
+        
+        flex-direction: column;
+        align-items: center;
+          
+    }
+
+    .three-part h1{
+        font-size: 1.5rem;
+            
+    }
+
+    .frstBtn{
+        padding: 0.3rem 1.8em;
+        background: none;
+        border: 0;
+        border: 1.5px solid #389962;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+    } 
+
+    .smBtn{padding: 0.3rem 1.8em;
+        background: none;
+        border: 0;
+        border: 1.5px solid #389962;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+    }
+
+    .input-section button{
+        background: none;
+        border: 0;
+        border: 1.5px solid #bee6cf;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+    }
+
+    .main p {
+        
+        font-size: 0.9rem;
+    }
+
+    .input-section p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+}
+
+
+@media only screen and (max-width:550px){
+
+    .main h3{
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-top: 0.6rem;
+        color: rgb(54, 37, 37);
+    }
+
+    .input-flex .block{
+        width: 98%;
+    }
+
+    .input-flex{
+        
+        flex-direction: column;
+        
+    }
+
+    .input-section{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .input textarea{
+        width: 94.2%;
+        padding-left: 1.3rem;
+        padding-top: 0.7rem;
+    }
+
+    .input-flex input{
+        width: 96%;
+        padding-left: 1.3rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+
+    .block h5{
+        padding-top: 1rem;
+        margin-bottom: -0.8rem;
+    
+    }
+
+    .frstBtn{
+        padding: 0.4rem 1.5rem;
+        background: none;
+        border: 0;
+        border: 1.5px solid #389962;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+    } 
+
+    .smBtn{
+        padding: 0.4rem 1.5rem;
+        background: none;
+        border: 0;
+        border: 1.5px solid #389962;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+    }
+
+    .input-section button{
+        padding: 0.4rem 1.5rem;
+        background: none;
+        border: 0;
+        border: 1.5px solid #d3e7dc;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+    } 
+
+}
+
+@media only screen and (max-width:320px){
+    nav span{
+        font-size: 0.8rem;
+    }
+
+ 
+
+    .frstBtn{
+        padding: 0.2rem 1rem;
+        background: none;
+        border: 0;
+        border: 1px solid #389962;
+        color: #389962;;
+        font-size: 0.6rem;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+    } 
+
+    .input-section button{
+        padding: 0.2rem 1rem;
+        background: none;
+        border: 0;
+        border: 1px solid #c4eed6;
+        color: #389962;;
+        font-size: 0.6rem;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+    }
+
+    .smBtn{
+        padding: 0.2rem 1rem;
+        background: none;
+        border: 0;
+        border: 1px solid #389962;
+        color: #389962;;
+        font-size: 0.6rem;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+    }
+
+    .main h3{
+        
+        
+        line-height: 1.4rem;
+        margin-top: 0.6rem;
+        margin-bottom: 1rem;
+        color: rgb(54, 37, 37);
+    }
+
+    .main p{
+        
+        line-height: 1.5rem;
+        
+    }
+
+    .input ::placeholder{
+        font-size: 0.8rem;
+    
+    }
+
+    .input h5{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+}
